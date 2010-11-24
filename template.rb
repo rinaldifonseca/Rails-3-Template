@@ -30,14 +30,14 @@ generate "devise Admin"
 generate "devise:views"
 
 
-get "https://github.com/rails/jquery-ujs/raw/master/src/rails.js", "public/javascripts/rails.js"
-get "https://github.com/rinaldifonseca/Rails-3-Template/raw/master/.gitignore" ,".gitignore" 
-get "https://github.com/rinaldifonseca/Rails-3-Template/raw/master/app/controllers/home_controller.rb", "app/controllers/home_controller.rb"
-get "https://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/devise.pt-BR.yml", "config/locales/devise.pt-BR.yml"
-get "https://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/pt-BR.yml", "config/locales/pt-BR.yml"
-get "https://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/authentication.feature", "features/authentication.feature"
-get "https://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/support/factory_girl.rb", "features/support/factory_girl.rb"
-get "https://github.com/rinaldifonseca/Rails-3-Template/raw/master/spec/support/factories/users.rb", "spec/support/factories/users.rb"
+get "http://github.com/rails/jquery-ujs/raw/master/src/rails.js", "public/javascripts/rails.js"
+get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/.gitignore" ,".gitignore" 
+get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/app/controllers/home_controller.rb", "app/controllers/home_controller.rb"
+get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/devise.pt-BR.yml", "config/locales/devise.pt-BR.yml"
+get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/pt-BR.yml", "config/locales/pt-BR.yml"
+get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/authentication.feature", "features/authentication.feature"
+get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/support/factory_girl.rb", "features/support/factory_girl.rb"
+get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/spec/support/factories/users.rb", "spec/support/factories/users.rb"
 
 
 append_file 'Rakefile', <<-METRIC_FU
