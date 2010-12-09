@@ -30,14 +30,14 @@ generate "devise Admin"
 generate "devise:views"
 
 
-get "http://github.com/rails/jquery-ujs/raw/master/src/rails.js", "public/javascripts/rails.js"
-get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/.gitignore" ,".gitignore" 
-get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/app/controllers/home_controller.rb", "app/controllers/home_controller.rb"
-get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/devise.pt-BR.yml", "config/locales/devise.pt-BR.yml"
-get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/pt-BR.yml", "config/locales/pt-BR.yml"
-get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/authentication.feature", "features/authentication.feature"
-get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/support/factory_girl.rb", "features/support/factory_girl.rb"
-get "http://github.com/rinaldifonseca/Rails-3-Template/raw/master/spec/support/factories/users.rb", "spec/support/factories/users.rb"
+run "wget --no-check-certificate 'https://github.com/rails/jquery-ujs/raw/master/src/rails.js', -0 public/javascripts/rails.js"
+run "wget --no-check-certificate 'https://github.com/rinaldifonseca/Rails-3-Template/raw/master/.gitignore' ,-0 .gitignore" 
+run "wget --no-check-certificate 'https://github.com/rinaldifonseca/Rails-3-Template/raw/master/app/controllers/home_controller.rb', -0 app/controllers/home_controller.rb"
+run "wget --no-check-certificate 'https://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/devise.pt-BR.yml', -0 config/locales/devise.pt-BR.yml"
+run "wget --no-check-certificate 'https://github.com/rinaldifonseca/Rails-3-Template/raw/master/config/locales/pt-BR.yml', -0 config/locales/pt-BR.yml"
+run "wget --no-check-certificate 'https://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/authentication.feature', -0 features/authentication.feature"
+run "wget --no-check-certificate 'https://github.com/rinaldifonseca/Rails-3-Template/raw/master/features/support/factory_girl.rb', -0 features/support/factory_girl.rb"
+run "wget --no-check-certificate 'https://github.com/rinaldifonseca/Rails-3-Template/raw/master/spec/support/factories/users.rb', -0 spec/support/factories/users.rb"
 
 
 append_file 'Rakefile', <<-METRIC_FU
