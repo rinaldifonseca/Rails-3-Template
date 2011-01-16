@@ -9,6 +9,7 @@ gem 'friendly_id', '~>3.0'
 gem 'rspec', '>=2.0.1', :group => [:development, :rspec]
 gem 'rspec-rails', '>=2.0.1', :group => [:development, :rspec]
 gem "factory_girl_rails", :group => [:development, :rspec]
+gem 'metric_fu', :group => [:developement]
 
 gem 'cucumber', ">=0.9.4", :group => [:development, :cucumber]
 gem 'cucumber-rails', ">=0.3.2", :group => [:development, :cucumber]
